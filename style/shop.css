@@ -1,0 +1,75 @@
+
+       header {
+  
+        color: white;
+        background-image: url("../image/background.png");
+        background-size: contain;
+        background-position: center;
+        height: 80vh;
+       
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+      
+      }
+  
+  
+  section{
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+ 
+ 
+  }
+
+  section h1, h3{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+  }
+  
+
+
+  #flex_container{
+    margin-top: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  #flex_container div{
+    height: 100%;
+    width: calc(33% - 20px);
+    margin-bottom: 40px;
+  }
+
+  #flex_container div img{
+    width: 100%;
+
+
+    height: 100%;
+  }
+
+  #flex_container input{
+    margin-top: 7px;
+    color: white;
+    height: 50px;
+    background-color: orange;
+    width: 100%;
+    cursor: pointer;
+  }
+
+
+#flex_container input:hover{
+  background-color: red;
+}
+
+@media(max-width: 600px){
+
+  #flex_container div{
+  width: calc(50% - 10px);
+  }
+}

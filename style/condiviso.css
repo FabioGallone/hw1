@@ -1,0 +1,287 @@
+body{
+ 
+    margin: 0;
+   }
+   
+   
+   
+   header div.trasparenza {
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     background-color: rgba(0, 0, 0, 0.3);
+       z-index: 0;
+   }
+   
+   
+   a {
+     color: white;
+     text-decoration: none;
+     cursor: pointer;
+     padding: 20px;
+   }
+  
+   a:hover{
+     color: red;
+   }
+
+   
+   
+   a.button {
+     padding: 10px 15px;
+     border: 2px solid white;
+     border-radius: 50px;
+   }
+   
+   a.button:hover {
+     background-color: white;
+     color: black;
+   }
+  
+   
+     
+   header nav {
+   
+   
+   position: absolute;
+     top: 0;
+     right: 0;
+     
+    
+     
+     /*font-size: 14px;*/
+     font-size: 1em;
+     padding: 20px 20px 20px 0px;
+    
+     
+   }
+   
+   .links{
+       display: flex;
+     align-items: center;
+     height: 40px;
+ 
+   }
+   
+   /*
+   h1{
+     margin: 0px;
+   }*/
+   
+   #titolo h1{
+    position: relative;
+    font-family: "Montserrat",sans-serif;
+    letter-spacing: 27px;
+    font-size: 40px;
+  }
+  
+  
+  
+  #titolo h1 strong{
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+     font-size: 3.9rem;
+    letter-spacing: 1px;
+    font-size: 2em;
+    color: white;
+  }
+  #titolo h1 em{
+    color: #e61919;
+  }
+  
+  body header img{
+    position: relative;
+    height: 90px;
+  }
+  
+  header a span{
+    background-color: white;
+    color: black;
+    position: relative;
+  margin-top: 50px;
+  cursor: pointer;
+  border: 2px solid white;
+   padding: 12px 46px;
+   font-size: 13px;
+  
+  }
+  
+  header a span:hover{
+    background-color: #e0e0e0;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    background-color: #7b7b7b;
+  }
+  
+  footer p{
+  
+   padding: 5px;
+    margin-top: 0px;
+    color: white;
+      text-align:center;
+    margin-bottom: 0px;
+  }
+  
+  
+  #footer_buttons{
+      color: white;
+  
+  
+   text-align:center;
+  }
+  
+  #footer_buttons a{
+     padding: 0px;
+  }
+  
+  #epilogo{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    margin-top: 30px;
+  
+  }
+
+  
+  #epilogo div{
+  
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 60px;
+  }
+  
+  #epilogo div p{
+    text-align: justify;
+    font-size: 20px;
+  }
+  #epilogo a{
+    font-size: 20px;
+  }
+  
+  #epilogo img{
+    height: 200px;
+    width: 200px;
+  }
+  
+  #epilogo li{
+    font-size: 23px;
+  }
+
+
+  #menu{
+    display: none;
+  }
+  
+  #menu div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0px;
+
+
+  
+  }
+
+  .nascondi{
+    display: none !important;
+
+  }
+
+  .mostra{
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .mobile{
+    flex-direction: column;
+    font-size: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  
+
+  }
+
+  .nospace{
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+
+  
+  @media(max-width: 853px){
+    #titolo h1{
+       font-size: 2em;
+    }  
+
+      
+  header a span{
+    
+  margin-top: 20px;
+
+  border: 2px solid white;
+   padding: 6px 23px;
+   font-size: 10px;
+  
+  }  
+
+  #epilogo div{
+  
+    padding: 10px;
+   
+  }
+
+  #epilogo div img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .abbonamento{
+    font-size: 60px;
+  }
+
+  .flex-container div{
+    margin-bottom: 10px;
+    
+  }
+
+
+  }
+  
+  
+  @media(max-width: 600px){
+
+    #titolo h1{
+      font-size: 1.2em;
+   }  
+  
+    header{
+      height: 250px;
+    }
+    
+    .links{
+      display: none;
+    }
+
+    #epilogo .links{
+      display: none !important;
+    }
+    
+    #menu{
+      display: block;
+    }   
+  
+  
+  
+  }

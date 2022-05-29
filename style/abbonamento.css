@@ -1,0 +1,156 @@
+
+     header {
+  
+     color: white;
+     background-image: url("../image/background_abbonamento.jpg");
+     background-size: contain;
+     background-position: center;
+     height: 80vh;
+    
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    justify-content: center;
+   
+   }
+  
+
+
+  section{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.flex_container h2,h1,h3{
+  padding: 50px;
+    display: flex;
+flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.flex_container h2{
+  color: red;
+}
+
+
+.flex_container{
+  margin-top: 40px;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+}
+
+.flex_container div{
+  position: relative;
+    width: calc(33% - 20px);
+  height: 700px;
+
+
+}
+
+
+.flex_container .mensile{
+  background-image: url("../image/sfondo_1.png");
+    background-position: 40%;
+}
+
+
+
+
+.flex_container .trimestrale{
+  background-position: center;
+  background-image: url("../image/sfondo_2.png");
+}
+
+.flex_container .annuale{
+  background-position: center;
+  background-image: url("../image/sfondo_3.png");
+}
+
+.flex_container div img{
+  width: 80%;
+
+
+  height: 80%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+
+section span h1{
+  display: block;
+  color: black;
+  text-align: center;
+}
+
+form{
+ text-align: center;
+}
+
+input{
+  margin-top: 30px;
+
+  font-size: 20px;
+}
+
+form span{
+
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+section .flex_container span h1{
+  color: black;
+  padding: 0px;
+
+}
+
+
+section .flex_container p{
+  font-size: 22px;
+  text-align: center;
+
+}
+.altezza{
+  justify-content: center;
+  height: 300px;
+
+}
+
+
+@media(max-width: 853px){
+  .flex_container{
+    display: block;
+  }
+  .flex_container div{
+   text-align: center;
+      width: 100%;
+    height: 700px;
+    margin-bottom: 30px;
+  }
+  
+  .altezza{
+    height: 80%;
+  }
+
+  .flex_container{
+    display: block;
+  }
+
+
+  .altezza img{
+
+    width: 100%;
+  }
+
+
+  
+
+
+}
